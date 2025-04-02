@@ -1,0 +1,58 @@
+.language-bar {
+  height: 56px;
+  background-color: #E8F5E9;
+  padding: 8px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.language-btn {
+  width: 140px;
+  height: 40px;
+  background-color: #FFFFFF;
+  border: 1px solid #DDDDDD;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  padding: 8px 12px;
+  cursor: pointer;
+  gap: 8px;
+}
+
+.language-btn:hover {
+  background-color: #F5F5F5;
+}
+
+.flag {
+  width: 24px;
+  height: 24px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.lang-name {
+  font-size: 14px;
+  color: #333333;
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.swap-btn {
+  width: 32px;
+  height: 32px;
+  background-color: #FFFFFF;
+  border: 1px solid #DDDDDD;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #81C784;
+}
+
+.swap-btn:hover {
+  background-color: #F5F5F5;
+}

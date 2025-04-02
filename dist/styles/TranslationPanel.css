@@ -1,0 +1,75 @@
+.translation-section {
+  padding: 8px 0;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  max-height: calc(50% - 60px);
+}
+
+.section-label {
+  font-size: 12px;
+  color: #666666;
+  padding: 0 16px 8px;
+  margin: 0;
+}
+
+.text-input, .text-output {
+  flex-grow: 1;
+  padding: 8px 16px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333333;
+  min-height: 80px;
+  max-height: 120px;
+  overflow-y: auto;
+}
+
+.text-input {
+  border: none;
+  resize: none;
+  outline: none;
+  background-color: #FFFFFF;
+  font-family: inherit;
+}
+
+.text-output {
+  background-color: #E8F5E9;
+  border-radius: 4px;
+  margin: 0 16px;
+  user-select: text;
+}
+
+.text-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 16px;
+}
+
+.char-count {
+  font-size: 12px;
+  color: #666666;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 8px;
+}
+
+.action-btn {
+  width: 32px;
+  height: 32px;
+  border-radius: 16px;
+  border: none;
+  background-color: #E8F5E9;
+  color: #81C784;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.action-btn:hover {
+  background-color: #81C784;
+  color: white;
+}
